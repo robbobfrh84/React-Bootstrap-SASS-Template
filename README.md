@@ -1,4 +1,10 @@
-### Bootstrap SASS template
+
+### Getting started
+* $`git clone` 
+* $`npm install`
+* $`npm start`
+
+### Bootstrap SASS template From Scratch Notes
 - $`create-react-app bootstrap-temp`
 - Created `_admin` folder
 - Created `notes.md` (this)
