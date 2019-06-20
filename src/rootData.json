@@ -1,0 +1,22 @@
+{
+  "website_title": "React Bootstrap SASS Template",
+  "website_name": "Rootsass",
+  "pages": {
+    "Home": {
+      "title": "Home Page",
+      "id": "h"
+    },
+    "FullPage": {
+      "title": "Full Page",
+      "id": "f1"
+    },
+    "Page2": {
+      "title": "Page 2",
+      "id": "p2"
+    },
+    "Theme": {
+      "title": "Theme",
+      "id": "p3"
+    }
+  }
+}

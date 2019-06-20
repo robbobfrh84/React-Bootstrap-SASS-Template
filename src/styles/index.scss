@@ -1,0 +1,35 @@
+$colors: (
+  primary: firebrick,
+  secondary: cornflowerblue,
+  success: green,
+  info: darkcyan,
+  warning: darkgoldenrod,
+  danger: crimson,
+  light: rgba(0,0,0,0.1),
+  dark: rgba(0,0,0,0.75),
+  link: mediumpurple,
+);
+
+$theme-colors: (
+  primary: map-get($colors, primary),
+  secondary: map-get($colors, secondary),
+  success: map-get($colors, success),
+  info: map-get($colors, info),
+  warning: map-get($colors, warning),
+  danger: map-get($colors, danger),
+  light: map-get($colors, light),
+  dark: map-get($colors, dark),
+  link: map-get($colors, link)
+) !default;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$primary: map-get($colors, primary);
+$secondary: map-get($colors, secondary);
+$success: map-get($colors, success);
+$info: map-get($colors, info);
+$warning: map-get($colors, warning);
+$danger: map-get($colors, danger);
+$light: map-get($colors, light);
+$dark: map-get($colors, dark);
+$link: map-get($colors, link);

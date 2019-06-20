@@ -1,0 +1,27 @@
+@import "src/styles/index.scss"
+
+.home
+  .wheel-container
+    padding: 30px
+  .wheel-logo
+    animation: wheel-logo-spin infinite 20s linear
+    height: 300px
+    width: 300px
+    max-width: 300px
+    margin: auto
+    font-size: 300px
+    color: green
+    pointer-events: none
+    line-height: 300px
+  .wheel-br
+    height: 0px
+    color: rgba(0,0,0,0)
+  .wheel-br-bot
+    height: 80px
+    color: rgba(0,0,0,0)
+
+@keyframes wheel-logo-spin
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)
